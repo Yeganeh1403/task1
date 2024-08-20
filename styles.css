@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 230px;
+    padding: 20px;
+    background-color: 188, 117, 162;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(125, 42, 94);
+    text-align: center;
+}
+
+.child {
+    background-color: rgb(189, 34, 131);
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+a {
+    font-size: 50px;
+    color: rgb(209, 245, 255);
+}
